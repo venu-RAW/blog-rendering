@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	// width: 90vw;
+	margin: 0 auto;
+	font-size: 1.6rem;
+	font-family: "Nunito", sans-serif;
+	color: #000;
+	letter-spacing: 0.1rem;
+	box-sizing: border-box;
+}
