@@ -1,4 +1,4 @@
-import { blogs } from "../data.js";
+import { blogs } from "../data-copy.js";
 
 export const findBlogById = (blogId) => {
 	return blogs.filter((blog) => {
